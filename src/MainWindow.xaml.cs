@@ -250,7 +250,7 @@ namespace CanaryLauncherUpdate
 		{
 			progressbarDownload.Value = e.ProgressPercentage;
 			if (progressbarDownload.Value == 100) {
-				labelDownloadPercent.Content = "Finishing, wait...";
+				labelDownloadPercent.Content = "Finalizando, Aguarde...";
 			} else {
 				labelDownloadPercent.Content = SizeSuffix(e.BytesReceived) + " / " + SizeSuffix(e.TotalBytesToReceive);
 			}
